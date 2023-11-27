@@ -23,7 +23,7 @@ npm install inquirer@^8.2.4
   ## Usage
   [Walkthrough Video]()
 
-![Quick-Demo]()
+![Quick-Demo](https://github.com/BeluchiIgbo/readme-generator/blob/main/Readme%20Generator%20mod%209.gif)
 
   ## License
   This project is under the 
