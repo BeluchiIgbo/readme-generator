@@ -35,7 +35,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "Tests:",
+    name: "tests:",
     message:
       "Enter the test instructions:",
   },
@@ -47,12 +47,12 @@ const questions = [
   },
   {
     type: "input",
-    name: "user github",
+    name: "github",
     message: "Enter GitHub username:",
   },
   {
     type: "input",
-    name: "user email",
+    name: "email",
     message: "Enter email address:",
   },
 ];
@@ -65,7 +65,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions)
-    .then((answers) => writeToFile('README.md', generateMarkdown(answers)))
+    .then((answers) => writeToFile('./output/README.md', generateMarkdown(answers)))
   .then(() => console.log(`readme has been created`))
 }
 
